@@ -1,6 +1,3 @@
-from math import gcd
-
-
 def gcd(num1, num2):
     assert int(num1) == num1 and int(num2) == num2, "The numbers must me integer"
     if num1<0:
