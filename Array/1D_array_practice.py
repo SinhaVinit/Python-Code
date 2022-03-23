@@ -74,11 +74,11 @@ print("Step 14")
 print(my_array.tolist())
 
 # 15. Append a string to char array using fromstring() method
-# print("Step 15")
-# newStr = "Hello"
-# newArr = array("")
-# newArr.frombytes(newStr)
-# print(newArr)
+print("Step 15")
+newStr = "Hello, World"
+newArr = array("u")
+newArr.fromunicode(newStr)
+print(newArr)
 
 # 16. Slice Elements from an array
 print("Step 16")
