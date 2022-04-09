@@ -1,9 +1,3 @@
-from textwrap import shorten
-from typing import KeysView
-
-from numpy import short, triu
-
-
 myDict = {"one": 1, "two": 2, "three": 3, "four": 4}
 
 # print("one" in myDict) # --------------------------> Time Complexity: O(1), Space Complexity: O(1)
